@@ -90,3 +90,4 @@ const data = [
         content: <DummyContent />,
     },
 ];
+export default AppleCardsCarouselDemo;
