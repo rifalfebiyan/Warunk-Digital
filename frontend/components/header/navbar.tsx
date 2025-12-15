@@ -77,7 +77,7 @@ export default function Navbar({ className }: { className?: string }) {
                 <Link href="/" className="flex items-center gap-2">
                     {/* <span className="font-bold text-lg text-black dark:text-white">Warunk Digital</span> */}
                     <Image
-                        src="/warunk-digital.png"
+                        src="/logo.png"
                         alt="Logo"
                         width={80}
                         height={80}
