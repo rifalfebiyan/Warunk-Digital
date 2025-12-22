@@ -8,6 +8,13 @@ import { LayoutTextFlip } from "@/components/ui/layout-text-flip";
 import { motion } from "motion/react";
 import { HoverBorder } from "@/components/landing-page/hover-border";
 import { IconBrandGithub, IconBrandInstagram, IconBrandLinkedin, IconBrandThreads } from "@tabler/icons-react";
+import { Testimonials } from "@/components/landing-page/testimonials";
+import { FAQ } from "@/components/landing-page/faq";
+import { CTA } from "@/components/landing-page/cta";
+import { TrustedBy } from "@/components/landing-page/trusted-by";
+import { Features } from "@/components/landing-page/features";
+import { Stats } from "@/components/landing-page/stats";
+import { Promo } from "@/components/landing-page/promo";
 // import { WorldMapSection } from "@/components/landing-page/world-map-section";
 
 
@@ -57,7 +64,14 @@ export default function LandingPage() {
                         </div>
                     </div>
                 </WavyBackground>
+                <TrustedBy />
                 <ServicesCarousel />
+                <Features />
+                <Promo />
+                <Stats />
+                <Testimonials />
+                <FAQ />
+                <CTA />
             </div>
         </div>
     );
