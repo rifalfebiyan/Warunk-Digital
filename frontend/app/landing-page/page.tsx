@@ -2,7 +2,7 @@
 
 import React from "react";
 import { WavyBackground } from "@/components/ui/wavy-background";
-import { AppleCardsCarouselDemo } from "@/components/landing-page/apple-cards-carousel-section";
+import { ServicesCarousel } from "@/components/landing-page/apple-cards-carousel-section";
 import Navbar from "@/components/header/navbar";
 import { LayoutTextFlip } from "@/components/ui/layout-text-flip";
 import { motion } from "motion/react";
@@ -16,9 +16,9 @@ export default function LandingPage() {
         <div>
             <Navbar />
             <div>
-                <WavyBackground className="max-w-4xl mx-auto pb-40">
+                <WavyBackground className="max-w-4xl mx-auto pb-16">
                     <div>
-                        <motion.div className="relative mx-4 my-4 flex flex-col items-center justify-center gap-4 text-center sm:mx-0 sm:mb-0 sm:flex-row">
+                        <motion.div className="relative mx-4 my-4 flex flex-col items-center justify-center gap-3 text-center sm:mx-0 sm:mb-0 sm:flex-row">
                             <LayoutTextFlip
                                 text="Warunk Digital is"
                                 words={["AI", "Web", "Data Analyst", "Designer"]}
@@ -57,7 +57,7 @@ export default function LandingPage() {
                         </div>
                     </div>
                 </WavyBackground>
-                <AppleCardsCarouselDemo />
+                <ServicesCarousel />
             </div>
         </div>
     );
