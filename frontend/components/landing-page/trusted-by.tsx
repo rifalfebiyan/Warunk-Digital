@@ -1,41 +1,37 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
-
 // Reusing InfiniteMovingCards but adapting the data structure or creating a simpler marquee
 // Since InfiniteMovingCards expects rigid structure, let's create a simple marquee here
 // using framer motion for infinite loop of logos
 
-import { motion } from "motion/react";
-
-const logos = [
-    "https://assets.algochurn.com/logo-dark.png",
-    "https://assets.algochurn.com/logo-light.png", // Just placeholders, normally use distinct company logos
-    // For demo, let's use text or generic SVGs if specific URLs aren't available
-];
-
 const companies = [
-    "Google", "Microsoft", "Amazon", "Netflix", "Meta", "Tesla", "Adobe", "Stripe"
+    { name: "Pustaka Pranala", logo: "/logo-pustaka-pranala.png" },
+    { name: "TK Ngabean", logo: "/logo-ais.webp" },
+    { name: "Binco Nusantara", logo: "/logo-binco.webp" },
 ];
 
 export const TrustedBy = () => {
     return (
-        <section className="py-10 bg-white dark:bg-black border-y border-neutral-100 dark:border-white/[0.05] overflow-hidden">
-            <p className="text-center text-sm font-medium text-neutral-500 mb-6 uppercase tracking-widest">
-                Trusted by industry leaders
-            </p>
+        <section className="py-20 bg-white dark:bg-black border-y border-neutral-100 dark:border-white/[0.05] overflow-hidden">
+            <h2 className="text-center text-3xl font-bold text-neutral-800 dark:text-neutral-200 mb-12">
+                Klien Kami
+            </h2>
             <div className="flex overflow-hidden relative w-full">
-                <div className="flex whitespace-nowrap animate-scroll-logos hover:[animation-play-state:paused] w-max">
+                <div className="flex whitespace-nowrap animate-scroll-logos hover:[animation-play-state:paused] w-max items-center">
                     {/* Doubling the list for seamless loop */}
-                    {[...companies, ...companies].map((company, idx) => (
-                        <div key={idx} className="mx-8 flex items-center justify-center opacity-50 hover:opacity-100 transition-opacity cursor-pointer">
-                            <span className="text-2xl font-bold text-neutral-400 dark:text-neutral-600">{company}</span>
+                    {[...companies, ...companies, ...companies, ...companies].map((company, idx) => (
+                        <div key={idx} className="mx-16 flex items-center justify-center cursor-pointer relative w-40 h-24 transition-transform hover:scale-110 duration-300">
+                            <Image
+                                src={company.logo}
+                                alt={company.name}
+                                fill
+                                className="object-contain"
+                            />
                         </div>
                     ))}
                 </div>
-                <div className="absolute top-0 left-0 w-24 h-full bg-gradient-to-r from-white dark:from-black to-transparent pointer-events-none"></div>
-                <div className="absolute top-0 right-0 w-24 h-full bg-gradient-to-l from-white dark:from-black to-transparent pointer-events-none"></div>
+
             </div>
             <style jsx>{`
         @keyframes scroll-logos {

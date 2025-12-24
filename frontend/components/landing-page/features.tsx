@@ -13,52 +13,53 @@ import {
 export const Features = () => {
     const features = [
         {
-            title: "AI-First Solutions",
+            title: "Solusi Berbasis AI",
             description:
-                "We leverage the latest in Artificial Intelligence to automate workflows and provide smart insights.",
+                "Kami memanfaatkan kecerdasan buatan terbaru untuk mengotomatisasi alur kerja dan memberikan wawasan cerdas.",
             icon: <IconBrain />,
         },
         {
-            title: "Modern Tech Stack",
+            title: "Teknologi Modern",
             description:
-                "Built with Next.js, Tailwind CSS, and other industry-leading technologies for maximum performance.",
+                "Dibangun dengan Next.js, Tailwind CSS, dan teknologi terdepan lainnya untuk performa maksimal.",
             icon: <IconBrandTailwind />,
         },
         {
-            title: "Rapid Deployment",
+            title: "Implementasi Cepat",
             description:
-                "From concept to launch in record time. Our agile process ensures you get to market faster.",
+                "Dari konsep hingga peluncuran dalam waktu singkat. Proses tangkas kami memastikan Anda masuk pasar lebih cepat.",
             icon: <IconRocket />,
         },
         {
-            title: "Enterprise Security",
+            title: "Keamanan Tingkat Perusahaan",
             description:
-                "Security is not an afterthought. We implement best practices to keep your data safe and secure.",
+                "Keamanan bukan hal sepele. Kami menerapkan praktik terbaik untuk menjaga data Anda tetap aman dan terlindungi.",
             icon: <IconLock />,
         },
         {
-            title: "Mobile Responsive",
+            title: "Responsif Seluler",
             description:
-                "Your site will look amazing on any device. We prioritize mobile-first design principles.",
+                "Situs Anda akan terlihat luar biasa di perangkat apa pun. Kami memprioritaskan prinsip desain mobile-first.",
             icon: <IconDeviceMobile />,
         },
         {
-            title: "24/7 Support",
+            title: "Dukungan 24/7",
             description:
-                "Our dedicated support team is always available to help you resolve any issues promptly.",
+                "Tim dukungan kami selalu tersedia untuk membantu Anda menyelesaikan masalah apa pun dengan segera.",
             icon: <IconHeadset />,
         },
     ];
 
     return (
-        <section className="py-20 bg-white dark:bg-black">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="py-20 bg-neutral-50 dark:bg-black relative overflow-hidden">
+            <div className="absolute inset-0 bg-white dark:bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] pointer-events-none"></div>
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-white mb-4">
-                        Why Choose Warunk Digital?
+                        Mengapa Memilih Warunk Digital?
                     </h2>
                     <p className="text-neutral-600 dark:text-neutral-400 text-lg max-w-2xl mx-auto">
-                        We combine creativity with technical excellence to deliver products that drive growth.
+                        Kami menggabungkan kreativitas dengan keunggulan teknis untuk menghadirkan produk yang mendorong pertumbuhan.
                     </p>
                 </div>
 

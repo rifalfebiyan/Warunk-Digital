@@ -11,7 +11,7 @@ export function HoverBorder() {
         className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
       >
         <AceternityLogo />
-        <span>Digital Solution</span>
+        <span>Solusi Digital</span>
       </HoverBorderGradient>
     </div>
 

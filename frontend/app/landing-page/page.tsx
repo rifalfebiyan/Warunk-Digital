@@ -27,13 +27,13 @@ export default function LandingPage() {
                     <div>
                         <motion.div className="relative mx-4 my-4 flex flex-col items-center justify-center gap-3 text-center sm:mx-0 sm:mb-0 sm:flex-row">
                             <LayoutTextFlip
-                                text="Warunk Digital is"
-                                words={["AI", "Web", "Data Analyst", "Designer"]}
+                                text="Warunk Digital adalah"
+                                words={["AI", "Web", "Analisa Data", "Desainer"]}
                             />
                         </motion.div>
                         {/* <p className="mt-4 text-center text-base text-neutral-600 dark:text-neutral-400"> */}
                         <p className="mt-4 text-center text-base">
-                            We are a digital agency that specializes in AI, Web Development, Data Analyst, and Designer.
+                            Kami adalah agensi digital yang berspesialisasi dalam AI, Pengembangan Web, Analisis Data, dan Desain.
                         </p>
                         <HoverBorder />
                         <div className="flex flex-row items-center justify-center gap-8 mt-10">
@@ -64,8 +64,8 @@ export default function LandingPage() {
                         </div>
                     </div>
                 </WavyBackground>
-                <TrustedBy />
                 <ServicesCarousel />
+                <TrustedBy />
                 <Features />
                 <Promo />
                 <Stats />

@@ -3,10 +3,10 @@ import React from "react";
 import { motion } from "motion/react";
 
 const stats = [
-    { value: 100, label: "Projects Completed", suffix: "+" },
-    { value: 50, label: "Happy Clients", suffix: "+" },
-    { value: 98, label: "Satisfaction Rate", suffix: "%" },
-    { value: 24, label: "Support Hours", suffix: "/7" },
+    { value: 5, label: "Proyek Selesai", suffix: "+" },
+    { value: 10, label: "Klien Puas", suffix: "+" },
+    { value: 98, label: "Rasio Kepuasan", suffix: "%" },
+    { value: 24, label: "Jam Dukungan", suffix: "/7" },
 ];
 
 export const Stats = () => {

@@ -11,10 +11,10 @@ export const CTA = () => {
                     <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
                         <div className="max-w-xl">
                             <h2 className="text-3xl md:text-4xl font-bold text-white dark:text-black mb-4">
-                                Ready to elevate your digital presence?
+                                Siap untuk meningkatkan kehadiran digital Anda?
                             </h2>
                             <p className="text-neutral-300 dark:text-neutral-600 text-lg">
-                                Join hundreds of satisfied clients who have transformed their business with Warunk Digital. Let's build something amazing together.
+                                Bergabunglah dengan ratusan klien puas yang telah mengubah bisnis mereka dengan Warunk Digital. Mari bangun sesuatu yang luar biasa bersama.
                             </p>
                         </div>
                         <div>
@@ -22,7 +22,7 @@ export const CTA = () => {
                                 href="/contact"
                                 className="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-black dark:text-white bg-white dark:bg-black rounded-full hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors gap-2"
                             >
-                                Get Started Now <ArrowRight size={18} />
+                                Mulai Sekarang <ArrowRight size={18} />
                             </Link>
                         </div>
                     </div>

@@ -33,28 +33,28 @@ const ServiceContent = ({ title, description }: { title: string, description: st
 
 const data = [
     {
-        category: "Artificial Intelligence",
+        category: "Kecerdasan Buatan",
         title: "Solusi AI Cerdas.",
         src: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=3432&auto=format&fit=crop",
-        content: <ServiceContent title="Artificial Intelligence" description="Kami membantu mengintegrasikan kecerdasan buatan ke dalam bisnis Anda untuk otomatisasi dan efisiensi yang lebih baik." />,
+        content: <ServiceContent title="Kecerdasan Buatan" description="Kami membantu mengintegrasikan kecerdasan buatan ke dalam bisnis Anda untuk otomatisasi dan efisiensi yang lebih baik." />,
     },
     {
-        category: "Web Development",
+        category: "Pengembangan Web",
         title: "Website Modern & Cepat.",
         src: "https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=3328&auto=format&fit=crop",
-        content: <ServiceContent title="Web Development" description="Bangun identitas digital Anda dengan website yang responsif, cepat, dan menggunakan teknologi terbaru." />,
+        content: <ServiceContent title="Pengembangan Web" description="Bangun identitas digital Anda dengan website yang responsif, cepat, dan menggunakan teknologi terbaru." />,
     },
     {
-        category: "Data Analyst",
+        category: "Analisis Data",
         title: "Wawasan Data Mendalam.",
         src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=3540&auto=format&fit=crop",
-        content: <ServiceContent title="Data Analyst" description="Ubah data mentah menjadi wawasan yang dapat ditindaklanjuti untuk mengembangkan strategi bisnis Anda." />,
+        content: <ServiceContent title="Analisis Data" description="Ubah data mentah menjadi wawasan yang dapat ditindaklanjuti untuk mengembangkan strategi bisnis Anda." />,
     },
     {
-        category: "UI/UX Design",
+        category: "Desain UI/UX",
         title: "Desain Intuitif.",
         src: "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=3328&auto=format&fit=crop",
-        content: <ServiceContent title="UI/UX Design" description="Menciptakan pengalaman pengguna yang menarik dan antarmuka yang memukau secara visual." />,
+        content: <ServiceContent title="Desain UI/UX" description="Menciptakan pengalaman pengguna yang menarik dan antarmuka yang memukau secara visual." />,
     },
 ];
 

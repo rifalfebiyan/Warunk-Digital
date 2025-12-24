@@ -6,24 +6,24 @@ import { cn } from "@/lib/utils";
 
 const faqs = [
     {
-        question: "What services does Warunk Digital offer?",
+        question: "Layanan apa yang ditawarkan Warunk Digital?",
         answer:
-            "We offer a comprehensive range of digital services including Web Development, UI/UX Design, Branding, SEO Optimization, and custom AI solutions tailored to your business needs.",
+            "Kami menawarkan berbagai layanan digital yang komprehensif termasuk Pengembangan Web, Desain UI/UX, Branding, Optimasi SEO, dan solusi AI kustom yang disesuaikan dengan kebutuhan bisnis Anda.",
     },
     {
-        question: "Do you work with startups?",
+        question: "Apakah Anda bekerja dengan startup?",
         answer:
-            "Absolutely! We love working with startups. We have special packages designed to help new businesses establish a strong digital presence quickly and affordably.",
+            "Tentu saja! Kami senang bekerja dengan startup. Kami memiliki paket khusus yang dirancang untuk membantu bisnis baru membangun kehadiran digital yang kuat dengan cepat dan terjangkau.",
     },
     {
-        question: "How long does a typical project take?",
+        question: "Berapa lama proyek biasa berlangsung?",
         answer:
-            "Project timelines vary depending on scope and complexity. A standard website typically takes 4-6 weeks, while more complex applications may take 3-6 months. We provide detailed timelines during our initial consultation.",
+            "Waktu pengerjaan proyek bervariasi tergantung pada cakupan dan kompleksitas. Website standar biasanya memakan waktu 4-6 minggu, sementara aplikasi yang lebih kompleks bisa memakan waktu 3-6 bulan. Kami memberikan jadwal rinci selama konsultasi awal.",
     },
     {
-        question: "Do you offer post-launch support?",
+        question: "Apakah Anda menawarkan dukungan pasca-peluncuran?",
         answer:
-            "Yes, we offer various maintenance and support packages to ensure your digital products remain secure, up-to-date, and performing optimally after launch.",
+            "Ya, kami menawarkan berbagai paket pemeliharaan dan dukungan untuk memastikan produk digital Anda tetap aman, mutakhir, dan berkinerja optimal setelah peluncuran.",
     },
 ];
 
@@ -34,10 +34,10 @@ export const FAQ = () => {
             <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-20">
                     <h2 className="text-4xl md:text-5xl font-bold text-neutral-900 dark:text-white mb-6">
-                        Frequently Asked Questions
+                        Pertanyaan yang Sering Diajukan
                     </h2>
                     <p className="text-neutral-600 dark:text-neutral-400 text-xl max-w-2xl mx-auto">
-                        Have questions? We're here to help.
+                        Punya pertanyaan? Kami di sini untuk membantu.
                     </p>
                 </div>
 

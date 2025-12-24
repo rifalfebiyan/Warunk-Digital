@@ -5,27 +5,27 @@ import { ArrowRight } from "lucide-react";
 
 export const Promo = () => {
     return (
-        <section className="py-10 px-4 md:px-0 bg-white dark:bg-black">
+        <section className="py-10 px-4 md:px-0 bg-neutral-50 dark:bg-black">
             <div className="max-w-7xl mx-auto">
                 <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-purple-600 to-blue-600 px-6 py-16 shadow-2xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
                     <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
                         <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                            Boost your productivity today.
+                            Tingkatkan produktivitas Anda.
                             <br />
-                            Start using Warunk Digital.
+                            Mulai gunakan Warunk Digital.
                         </h2>
                         <p className="mt-6 text-lg leading-8 text-gray-300">
-                            Get a comprehensive audit of your digital presence completely free for a limited time.
+                            Dapatkan audit komprehensif kehadiran digital Anda secara gratis untuk waktu terbatas.
                         </p>
                         <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
                             <Link
                                 href="/contact"
                                 className="rounded-full bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white flex items-center gap-2"
                             >
-                                Get started <ArrowRight size={16} />
+                                Mulai Sekarang <ArrowRight size={16} />
                             </Link>
                             <Link href="/about" className="text-sm font-semibold leading-6 text-white hover:text-gray-100 flex items-center gap-1">
-                                Learn more <span aria-hidden="true">→</span>
+                                Pelajari lebih lanjut <span aria-hidden="true">→</span>
                             </Link>
                         </div>
                     </div>

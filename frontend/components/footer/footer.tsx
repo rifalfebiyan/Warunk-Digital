@@ -23,8 +23,7 @@ export const Footer = () => {
                             </span>
                         </Link>
                         <p className="text-sm text-neutral-600 dark:text-neutral-400 max-w-xs">
-                            Empowering businesses with cutting-edge digital solutions. From web
-                            development to branding, we handle it all with precision and style.
+                            Memberdayakan bisnis dengan solusi digital mutakhir. Dari pengembangan web hingga branding, kami menangani semuanya dengan presisi dan gaya.
                         </p>
                         <div className="flex space-x-4">
                             <SocialLink href="#" icon={<Twitter size={20} />} />
@@ -36,22 +35,22 @@ export const Footer = () => {
 
                     <div>
                         <h3 className="font-semibold text-neutral-900 dark:text-white mb-4">
-                            Services
+                            Layanan
                         </h3>
                         <ul className="space-y-2 text-sm text-neutral-600 dark:text-neutral-400">
                             <li>
                                 <Link href="/web-dev" className="hover:text-black dark:hover:text-white transition-colors">
-                                    Web Development
+                                    Pengembangan Web
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/interface-design" className="hover:text-black dark:hover:text-white transition-colors">
-                                    Interface Design
+                                    Desain Antarmuka
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/seo" className="hover:text-black dark:hover:text-white transition-colors">
-                                    SEO Optimization
+                                    Optimasi SEO
                                 </Link>
                             </li>
                             <li>
@@ -64,7 +63,7 @@ export const Footer = () => {
 
                     <div>
                         <h3 className="font-semibold text-neutral-900 dark:text-white mb-4">
-                            Products
+                            Produk
                         </h3>
                         <ul className="space-y-2 text-sm text-neutral-600 dark:text-neutral-400">
                             <li>
@@ -79,7 +78,7 @@ export const Footer = () => {
                             </li>
                             <li>
                                 <Link href="#" className="hover:text-black dark:hover:text-white transition-colors">
-                                    Templates
+                                    Template
                                 </Link>
                             </li>
                         </ul>
@@ -87,27 +86,27 @@ export const Footer = () => {
 
                     <div>
                         <h3 className="font-semibold text-neutral-900 dark:text-white mb-4">
-                            Company
+                            Perusahaan
                         </h3>
                         <ul className="space-y-2 text-sm text-neutral-600 dark:text-neutral-400">
                             <li>
                                 <Link href="/about" className="hover:text-black dark:hover:text-white transition-colors">
-                                    About Us
+                                    Tentang Kami
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/careers" className="hover:text-black dark:hover:text-white transition-colors">
-                                    Careers
+                                    Karir
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/contact" className="hover:text-black dark:hover:text-white transition-colors">
-                                    Contact
+                                    Kontak
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/privacy" className="hover:text-black dark:hover:text-white transition-colors">
-                                    Privacy Policy
+                                    Kebijakan Privasi
                                 </Link>
                             </li>
                         </ul>
@@ -115,7 +114,7 @@ export const Footer = () => {
                 </div>
 
                 <div className="mt-12 pt-8 border-t border-neutral-200 dark:border-white/[0.1] text-center text-sm text-neutral-500 dark:text-neutral-500">
-                    <p>&copy; {new Date().getFullYear()} Warunk Digital. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Warunk Digital. Hak cipta dilindungi undang-undang.</p>
                 </div>
             </div>
         </footer>

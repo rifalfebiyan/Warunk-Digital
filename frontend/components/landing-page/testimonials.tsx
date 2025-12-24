@@ -5,31 +5,31 @@ import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 const testimonials = [
     {
         quote:
-            "Warunk Digital transformed our online presence. Their AI solutions increased our efficiency by 40% in the first quarter.",
+            "Warunk Digital mengubah kehadiran online kami. Solusi AI mereka meningkatkan efisiensi kami sebesar 40% pada kuartal pertama.",
         name: "Alex Johnson",
         title: "CTO, TechCorp",
     },
     {
         quote:
-            "The design team is incredible. They understood our brand vision perfectly and delivered a website that truly stands out.",
+            "Tim desainnya luar biasa. Mereka memahami visi merek kami dengan sempurna dan menghadirkan situs web yang benar-benar menonjol.",
         name: "Sarah Williams",
-        title: "Marketing Director, Studio G",
+        title: "Direktur Pemasaran, Studio G",
     },
     {
         quote:
-            "Professional, timely, and exceedingly skilled. Highly recommend Warunk Digital for any web development needs.",
+            "Profesional, tepat waktu, dan sangat terampil. Sangat merekomendasikan Warunk Digital untuk segala kebutuhan pengembangan web.",
         name: "Michael Chen",
-        title: "Founder, StartupX",
+        title: "Pendiri, StartupX",
     },
     {
         quote:
-            "Their data analysis tools gave us insights we didn't know we needed. A game changer for our business strategy.",
+            "Alat analisis data mereka memberi kami wawasan yang tidak kami ketahui bahwa kami butuhkan. Pengubah permainan bagi strategi bisnis kami.",
         name: "Emily Davis",
         title: "CEO, DataFlow",
     },
     {
         quote:
-            "Exceptional service and support. The team at Warunk Digital goes above and beyond to ensure customer satisfaction.",
+            "Layanan dan dukungan yang luar biasa. Tim di Warunk Digital berusaha keras untuk memastikan kepuasan pelanggan.",
         name: "David Wilson",
         title: "COO, Innovate Inc",
     },
@@ -41,7 +41,7 @@ export const Testimonials = () => {
             <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
             <div className="flex flex-col items-center justify-center z-10 p-4 w-full">
                 <h2 className="text-3xl md:text-5xl font-bold text-neutral-900 dark:text-white mb-8 text-center">
-                    What our clients say
+                    Apa kata klien kami
                 </h2>
                 <InfiniteMovingCards
                     items={testimonials}
